@@ -9,7 +9,7 @@ public class Calculator {
             this.result += i;
         }
     }
-
+//dasdadsa
     public void minus(int... params) {
             if (result!=0) {
                 this.result -= params[0];
