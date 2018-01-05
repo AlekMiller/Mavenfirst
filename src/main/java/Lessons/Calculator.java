@@ -23,7 +23,10 @@ public class Calculator {
     public void div (int... params)throws UserExeption{
             if (params.length>0) {
                 if (result != 0) {
-                    this.result /= params[0];
+                    for (int param:params  ) {
+                        this.result /= param;
+                    }
+
                 } else {
                     this.result = params[0] / params[1];
                 }
